@@ -2,3 +2,56 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    background: darkolivegreen;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    flex: auto;
+}
+
+/*Title of game*/
+.game-title {
+    color: rgb(238, 184, 36);
+    font-family: serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 4em;
+    margin-bottom: -40px;
+    margin-top: 10px;
+    text-shadow: 4px 3px black;
+}
+
+/*game area*/
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 8px;
+    margin: 50px;
+    justify-content: center;
+    position: relative;
+
+}
+
+/*Score container*/
+.score-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    outline: 8px double black;
+    border-radius: 2em;
+    color: white;
+}
+
+/*Cards*/
+.card{
+    position: relative;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+}

@@ -42,7 +42,7 @@ body {
     border-radius: 16px;
 }
 
-.overlay-text-small {
+.instruction-text-small {
     font-size: .3em;
 }
 
@@ -117,6 +117,7 @@ h6 {
     border-width: 4px;
     border-style: solid;
     overflow: hidden;
+    transition: transform 500ms ease-in-out;
 }
 
 /*back of card*/
@@ -135,4 +136,5 @@ h6 {
 .card-front {
     transform: rotateY(180deg);
 }
+
 

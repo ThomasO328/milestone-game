@@ -137,4 +137,9 @@ h6 {
     transform: rotateY(180deg);
 }
 
-
+.card.visible .card-back{
+    transform: rotateY(-180deg);
+}
+.card.visible .card-front{
+    transform: rotateY(0);
+}
